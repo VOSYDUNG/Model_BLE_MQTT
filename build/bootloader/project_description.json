@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "E:/CE232/esp-idf/components/bootloader/subproject",
+    "build_dir":          "E:/CE232/Pratice_CE232/Lab4/Model_BLE_WIFI/build/bootloader",
+    "config_file":        "E:/CE232/Pratice_CE232/Lab4/Model_BLE_WIFI/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2.4-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "E:/CE232/esp-idf/components/efuse/Kconfig;E:/CE232/esp-idf/components/esp32/Kconfig;E:/CE232/esp-idf/components/esp_common/Kconfig;E:/CE232/esp-idf/components/log/Kconfig;E:/CE232/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "E:/CE232/esp-idf/components/bootloader/Kconfig.projbuild;E:/CE232/esp-idf/components/esptool_py/Kconfig.projbuild;E:/CE232/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "E:/CE232/esp-idf/components/bootloader", "E:/CE232/esp-idf/components/bootloader_support", "E:/CE232/esp-idf/components/efuse", "E:/CE232/esp-idf/components/esp32", "E:/CE232/esp-idf/components/esp_common", "E:/CE232/esp-idf/components/esp_rom", "E:/CE232/esp-idf/components/esptool_py", "E:/CE232/esp-idf/components/log", "E:/CE232/esp-idf/components/bootloader/subproject/main", "E:/CE232/esp-idf/components/bootloader/subproject/components/micro-ecc", "E:/CE232/esp-idf/components/partition_table", "E:/CE232/esp-idf/components/soc", "E:/CE232/esp-idf/components/spi_flash", "E:/CE232/esp-idf/components/xtensa", "" ]
+}

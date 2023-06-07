@@ -1,0 +1,6 @@
+source "E:/CE232/esp-idf/components/app_update/Kconfig.projbuild"
+source "E:/CE232/esp-idf/components/bootloader/Kconfig.projbuild"
+source "E:/CE232/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "E:/CE232/esp-idf/components/partition_table/Kconfig.projbuild"
+source "E:/CE232/Pratice_CE232/Lab4/Model_BLE_WIFI/main/Kconfig.projbuild"
+source "E:/CE232/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"
